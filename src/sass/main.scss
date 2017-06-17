@@ -139,6 +139,10 @@ body{
 	margin-bottom: 3%;
 	box-sizing: border-box;
 	margin-right: 2%;
+
+	&:first-child .js-amount-box,&:first-child .js-info-text{
+		background-color: rgba(15, 219, 181,0.2);
+	}
 }
 
 .js-amount-box{

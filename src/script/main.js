@@ -70,7 +70,7 @@ function createDiv(plnValue,datetime){
   currencyDateContainer.appendChild(plnAmountInfoText);
   currencyDateContainer.appendChild(polishCurrencyBox);
   currencyDateContainer.appendChild(dateBox);
-  result.appendChild(currencyDateContainer);
+  result.prepend(currencyDateContainer);
 }
 
 convert.addEventListener("click",getPolishCurrency,false);

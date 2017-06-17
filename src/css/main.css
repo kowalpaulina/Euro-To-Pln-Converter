@@ -143,6 +143,8 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-right: 2%; }
+  .js-amount-date-container:first-child .js-amount-box, .js-amount-date-container:first-child .js-info-text {
+    background-color: rgba(15, 219, 181, 0.2); }
 
 .js-amount-box {
   text-align: center;
